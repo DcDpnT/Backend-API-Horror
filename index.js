@@ -1,8 +1,10 @@
 const express = require ("express");
+const cors = require ("cors")
 
 const port = 4242;
 
 const app = express();
+app.use(cors("*"))
 app.use(express.static('assets'));
 const homeData = [
     {
@@ -46,7 +48,8 @@ const storiesData =[
         imgsrc2: "/LoupsGarous.png",
         imgsrc3: "/LoupsGarousForet.png",
         imgsrc4: "/LoupsGarousCreatures.png",
-        histoire:"",
+        histoire1:"Le lycanthrope, plus connu en français sous le nom de loup garou est, dans les mythologies européennes, un humain possédant la capacité de se transformer en loup ( partiellement ou complètement ) ou en créature anthropophage proche de celui-ci. Contrairement à ce que beaucoup de personnes pensent, cette transformation n'est pas due à la morsure ou la griffure d’un autre lycanthrope. Cette croyance est tout à fait récente et très certainement imaginée pour le cinéma. Dans la mythologie, il s’agit plus d’une malédiction ou d’un rituel volontaire. La frontière entre la légende et la réalité est cependant fine. L’humanité depuis sa naissance à toujours été une proie, et les animaux anthropophages sont une réalité. Qu’il s’agisse d’une réminiscence de la partie reptilienne de notre cerveau, ou d’une constatation documenté comme, très proche de chez nous, la bête du Gevaudan qui alarma même le Roi Louis XV en personne, toutes les civilisations humaines de la planète ont leur folklore, intégrant systématiquement des créatures anthropomorphes.",
+        histoire2:"Il est évident que de nos jours, ces sujets peuvent faire sourire, mais prenez le cas Bill Ramsey, faisant partie des dossiers du célèbre couple Warren. Si la lycanthpopie existe, il en est la preuve concrète. Son histoire est pourtant des plus banale. Un simple charpentier de 38 ans qui lors de crises inexpliquées, pouvait se morfondre et agir comme un canidé, pour ne pas dire un loup. Lors de l’une de ses fameuses crise, il fit voler dans les airs les trois officiers de police venu le maitriser, dont l’un témoigna aux journalistes qu’il était impossible qu’un homme si frêle puisse le déplacer de la sorte. En effet, l’officier pesait 89 kg pour 1m80. De plus Mr Ramsey retroussait sa lèvre supérieure et montrait ses dents tel un animal. Se réveillant groggy, il ne se souvenaient jamais des attaques et sa personnalité différait complètement. Les policiers conversèrent alors avec un homme doux et gentil, toujours navré de ce qu’il avait pu provoquer.Surtout si vous croisez une personne étrange agissant bizarrement, munissez vous des protections nécessaire pour être en toute sécurité.",
     },
     {
         id: 3,
@@ -60,6 +63,13 @@ const storiesData =[
     },
     {
         id: 4,
+        name: "Roswell",
+        imgsrc1: "https://i.pinimg.com/564x/b5/28/6b/b5286baeebe7d1c58da45d9bce7ed23f.jpg",
+        imgsrc2: "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
+        imgsrc3: "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
+        imgsrc4: "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
+        histoire1:"Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
+        histoire2:"Il existe cependant des témoignages, de pilotes professionnels, de simples inconnus se trouvant au bon endroit, au bon moment que nous de devons pas occulter. L’un de ces témoignage à d’ailleurs été pris très au sérieux par le CNES ( centre national d’études spatial ). Le 28 janvier 1994, le pilote d’un vol Air France remarque, par le hublot de sont Airbus A320, volant à une altitude de 12 000 mètres avec des conditions météo excellentes, ce qu’i pense d’abord être un ballon météorologique. L’objet ers question se trouve plus bas, à environ 10 500 mètres d’altitude. S’approchant de plus en plus de l’objet, les contours se dessinent. Un taille immense, de l’ordre de 1000 mètres de diamètre et de 100 mètres d’épaisseur. Pas de détail apparent, pas de gouverne, pas de moteur. La copilote, elle, décrit une lentille, qui évolue vers une forme de « chevron » et se déplace à la même vitesse que l’avion. L’objet disparaîtra une minute plus tard. Capté par les radars au sol, ils ont la confirmation qu’aucun ballon météo ne se situé sur la trajectoire de l’avion. Au début honteux d’avoir à témoigner d’un phénomène inexpliqué, ils finissent par en parler à la gendarmerie. C’était la première fois q’une observation visuelle de qualité et une confirmation radar furent enregistré. Sommes-nous la seule espèce intelligente de ce système solaire.",
 
     },
 ];
@@ -90,7 +100,7 @@ const boutiqueData = [
         id: 4,
         catégorie: "loupsGarous",
         name: "balles en argent au détail",
-        imgsrc: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.webp",
+        imgsrc: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.png",
         prix: 10,
     },
     {
@@ -141,15 +151,15 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-    res.sendStatus(200).json(homeData);
+    res.json(homeData);
 });
 
 app.get("/stories", (req, res) => {
-    res.sendStatus(200).json(storiesData);
+    res.json(storiesData);
 });
 
 app.get("/boutique", (req, res) => {
-    res.sendStatus(200).json(boutiqueData);
+    res.json(boutiqueData);
 });
 
 app.listen(port, () => {
