@@ -1,8 +1,10 @@
 const express = require ("express");
+const cors = require ("cors")
 
 const port = 4242;
 
 const app = express();
+app.use(cors("*"))
 app.use(express.static('assets'));
 const homeData = [
     {
