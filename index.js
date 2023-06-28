@@ -44,7 +44,7 @@ const homeData = [
     {
         id: 4,
         name: "Roswell",
-        imgsrc1: "https://i.pinimg.com/564x/b5/28/6b/b5286baeebe7d1c58da45d9bce7ed23f.jpg",
+        imgsrc: "/RoswellHome.png",
         imgsrc2: "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
         imgsrc3: "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
         imgsrc4: "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
@@ -144,6 +144,8 @@ app.get("/home/:id", (req, res) => {
     console.log(result)
     res.json(result);
 });
+
+
 
 app.get("/boutique", (req, res) => {
     res.json(boutiqueData);
