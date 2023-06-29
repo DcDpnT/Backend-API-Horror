@@ -12,8 +12,8 @@ const homeData = [
         name: "Lord Dracula",
         imgsrc: "/VampireSecondaire.png",
         imgsrc1: "/VampirePrincipal.png",
-        imgsrc2: "/VampireSecondaire.png",
-        imgsrc3: "/ChateauDracula.png",
+        imgsrc2: "/ChateauDracula.png",
+        imgsrc3: "/VieilleFemmeVampire.png",
         imgsrc4: "/VieilleFemmeVampire.png",
         URL: "https://www.youtube.com/watch?v=Jhmnvk4YMU8",
         histoire1: "Dracula Personnage célèbre de la fin du XIXème siècle, crée par l’écrivain Bram Stoker pour son roman du même nom, il s’agit certainement du Vampire le plus célèbre dans l’imaginaire collectif. Il est évident que l’écriture de son personnage est passionnante. Inspiré du Comte Vlad Tepes III de Valachie, dit l’empaleur, Dracula inspire l’effroi à quiconque croisera son regard. Même le professeur Abraham Van Helsing le craint, pourtant éminent médecin et homme de loi au courage sans faille. C’est une émouvante histoire. Mais si je vous disais que la croyance du mort se nourrissant du sang des vivants pour subsister date de bien avant le XIXème siècle? Peut-être pas les vampires tels que nous les connaissons, mais les archéologues sont tout à fait au courant de cette pratique des « enterrements Vampriques » datant au moins du 5ème siècle.",
@@ -24,8 +24,8 @@ const homeData = [
         name: "Loups Garous",
         imgsrc: "/LoupsGarous.png",
         imgsrc1: "/LoupGarouPrincipal.png",
-        imgsrc2: "/LoupsGarous.png",
-        imgsrc3: "/LoupsGarousForet.png",
+        imgsrc2: "/LoupsGarousForet.png",
+        imgsrc3: "/LoupsGarousCreatures.png",
         imgsrc4: "/LoupsGarousCreatures.png",
         histoire1:"Le lycanthrope, plus connu en français sous le nom de loup garou est, dans les mythologies européennes, un humain possédant la capacité de se transformer en loup ( partiellement ou complètement ) ou en créature anthropophage proche de celui-ci. Contrairement à ce que beaucoup de personnes pensent, cette transformation n'est pas due à la morsure ou la griffure d’un autre lycanthrope. Cette croyance est tout à fait récente et très certainement imaginée pour le cinéma. Dans la mythologie, il s’agit plus d’une malédiction ou d’un rituel volontaire. La frontière entre la légende et la réalité est cependant fine. L’humanité depuis sa naissance à toujours été une proie, et les animaux anthropophages sont une réalité. Qu’il s’agisse d’une réminiscence de la partie reptilienne de notre cerveau, ou d’une constatation documenté comme, très proche de chez nous, la bête du Gevaudan qui alarma même le Roi Louis XV en personne, toutes les civilisations humaines de la planète ont leur folklore, intégrant systématiquement des créatures anthropomorphes.",
         histoire2:"Il est évident que de nos jours, ces sujets peuvent faire sourire, mais prenez le cas Bill Ramsey, faisant partie des dossiers du célèbre couple Warren. Si la lycanthpopie existe, il en est la preuve concrète. Son histoire est pourtant des plus banale. Un simple charpentier de 38 ans qui lors de crises inexpliquées, pouvait se morfondre et agir comme un canidé, pour ne pas dire un loup. Lors de l’une de ses fameuses crise, il fit voler dans les airs les trois officiers de police venu le maitriser, dont l’un témoigna aux journalistes qu’il était impossible qu’un homme si frêle puisse le déplacer de la sorte. En effet, l’officier pesait 89 kg pour 1m80. De plus Mr Ramsey retroussait sa lèvre supérieure et montrait ses dents tel un animal. Se réveillant groggy, il ne se souvenaient jamais des attaques et sa personnalité différait complètement. Les policiers conversèrent alors avec un homme doux et gentil, toujours navré de ce qu’il avait pu provoquer.Surtout si vous croisez une personne étrange agissant bizarrement, munissez vous des protections nécessaire pour être en toute sécurité.",
@@ -144,8 +144,6 @@ app.get("/home/:id", (req, res) => {
     console.log(result)
     res.json(result);
 });
-
-
 
 app.get("/boutique", (req, res) => {
     res.json(boutiqueData);
