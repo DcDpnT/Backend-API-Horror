@@ -33,7 +33,7 @@ const homeData = [
     {
         id: 3,
         name: "Le cas Vallecas",
-        imgsrc: "/Spirits.png",
+        imgsrc: "/casVallecasHome.png",
         imgsrc1: "/casVallecasPrincipal.png",
         imgsrc2: "/leCasVallecasSecondaire.png",
         imgsrc3: "/casVallecsEnfants.png",
