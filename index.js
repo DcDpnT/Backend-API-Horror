@@ -45,14 +45,12 @@ const homeData = [
         id: 4,
         name: "Roswell",
         imgsrc: "/ufo_first.png",
-        imgsrc1: "https://i.pinimg.com/564x/b5/28/6b/b5286baeebe7d1c58da45d9bce7ed23f.jpg",
         imgsrc2: "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
         imgsrc3: "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
         imgsrc4: "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
         histoire1:"Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
         histoire2:"Il existe cependant des témoignages, de pilotes professionnels, de simples inconnus se trouvant au bon endroit, au bon moment que nous de devons pas occulter. L’un de ces témoignage à d’ailleurs été pris très au sérieux par le CNES ( centre national d’études spatial ). Le 28 janvier 1994, le pilote d’un vol Air France remarque, par le hublot de sont Airbus A320, volant à une altitude de 12 000 mètres avec des conditions météo excellentes, ce qu’i pense d’abord être un ballon météorologique. L’objet ers question se trouve plus bas, à environ 10 500 mètres d’altitude. S’approchant de plus en plus de l’objet, les contours se dessinent. Un taille immense, de l’ordre de 1000 mètres de diamètre et de 100 mètres d’épaisseur. Pas de détail apparent, pas de gouverne, pas de moteur. La copilote, elle, décrit une lentille, qui évolue vers une forme de « chevron » et se déplace à la même vitesse que l’avion. L’objet disparaîtra une minute plus tard. Capté par les radars au sol, ils ont la confirmation qu’aucun ballon météo ne se situé sur la trajectoire de l’avion. Au début honteux d’avoir à témoigner d’un phénomène inexpliqué, ils finissent par en parler à la gendarmerie. C’était la première fois q’une observation visuelle de qualité et une confirmation radar furent enregistré. Sommes-nous la seule espèce intelligente de ce système solaire.",
     },
-  
 ];
   
 const boutiqueData = [
@@ -94,7 +92,7 @@ const boutiqueData = [
         name: "sauge blanche Amérindiene, lot de 2",
         imgsrc1: "https://i.etsystatic.com/36349093/r/il/afdb89/4012290846/il_1588xN.4012290846_qlr0.jpg",
         imgsrc2: "https://i.pinimg.com/564x/20/00/36/2000367e2c213f084637b2854a2f83c2.jpg",
-        price: 15,
+        prix: 15,
     },
     {
         id: 6,
@@ -102,34 +100,34 @@ const boutiqueData = [
         name: "Coffret XIXe Chasse Vampires",
         imgsrc1: "https://i.pinimg.com/564x/70/d6/ca/70d6ca07c52e476e307015676f958eff.jpg",
         imgsrc2: "https://i.pinimg.com/564x/48/6a/89/486a893f0f7262e3d785ed78d4a7fa99.jpg",
-        price: 2000,
+        prix: 2000,
     },
     {
         id: 7,
         catégorie: "lordDracula",
         name: "Poster Chateau Dracula",
         imgsrc: "/ChateauDracula.png",
-        price: 13,
+        prix: 13,
     },
     {
         id: 8,
         name: "Poster Chat maléfique",
         imgsrc: "/ChatDiabolique.png",
-        price: 13,
+        prix: 13,
     },
     {
         id: 9,
         catégorie: "hauntedHouses",
         name: "Detecteur EMF",
         imgsrc: "https://www.spiritshack.co.uk/wp-content/uploads/black-k2-emf-meter-ghost-hunting-equipment-ghost-detector-paranormal-investigation.jpg",
-        price: 500,
+        prix: 500,
     },
     {
         id: 10,
         catégorie: "Spirits",
         name:"Amélia",
         imgsrc: "https://www.mindshadow.fr/wp-content/uploads/2014/07/amelia.jpg",
-        price: 300,
+        prix: 300,
     },
 ];
 
