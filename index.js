@@ -9,7 +9,7 @@ app.use(express.static("assets"));
 const homeData = [
   {
     id: 1,
-    name: "Lord Dracula",
+    name: "Count Dracula",
     imgsrc: "/VampireSecondaire.png",
     imgsrc1: "/VampirePrincipal.png",
     imgsrc2: "/VampireSecondaire.png",
@@ -37,7 +37,7 @@ const homeData = [
   {
     id: 3,
     name: "Le cas Vallecas",
-    imgsrc: "/Spirits.png",
+    imgsrc: "/shadow_first.png",
     imgsrc1: "/casVallecasPrincipal.png",
     imgsrc2: "/leCasVallecasSecondaire.png",
     imgsrc3: "/maisonHantée.png",
@@ -50,13 +50,11 @@ const homeData = [
   {
     id: 4,
     name: "Roswell",
-    imgsrc: "/RoswellHome.png",
-    imgsrc2:
-      "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
-    imgsrc3:
-      "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
-    imgsrc4:
-      "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
+    imgsrc: "/ufo_first.png",
+    imgsrc1:"/alien_first.png",
+    imgsrc2:"https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
+    imgsrc3:"https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
+    imgsrc4:"https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
     histoire1:
       "Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
     histoire2:
@@ -76,7 +74,7 @@ const boutiqueData = [
   },
   {
     id: 2,
-    catégorie: "Lord Dracula",
+    catégorie: "Count Dracula",
     name: "amulette émeraude",
     imgsrc1:
       "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
