@@ -15,7 +15,7 @@ const homeData = [
     imgsrc2: "/VampireSecondaire.png",
     imgsrc3: "/ChateauDracula.png",
     imgsrc4: "/VieilleFemmeVampire.png",
-    url: "https://www.youtube.com/embed/Jhmnvk4YMU8",
+    URL: "https://www.youtube.com/watch?v=Jhmnvk4YMU8",
     histoire1:
       "Dracula Personnage célèbre de la fin du XIXème siècle, crée par l’écrivain Bram Stoker pour son roman du même nom, il s’agit certainement du Vampire le plus célèbre dans l’imaginaire collectif. Il est évident que l’écriture de son personnage est passionnante. Inspiré du Comte Vlad Tepes III de Valachie, dit l’empaleur, Dracula inspire l’effroi à quiconque croisera son regard. Même le professeur Abraham Van Helsing le craint, pourtant éminent médecin et homme de loi au courage sans faille. C’est une émouvante histoire. Mais si je vous disais que la croyance du mort se nourrissant du sang des vivants pour subsister date de bien avant le XIXème siècle? Peut-être pas les vampires tels que nous les connaissons, mais les archéologues sont tout à fait au courant de cette pratique des « enterrements Vampriques » datant au moins du 5ème siècle.",
     histoire2:
@@ -29,7 +29,6 @@ const homeData = [
     imgsrc2: "/LoupsGarous.png",
     imgsrc3: "/LoupsGarousForet.png",
     imgsrc4: "/LoupsGarousCreatures.png",
-    url: "https://www.youtube.com/embed/Jhmnvk4YMU8",
     histoire1:
       "Le lycanthrope, plus connu en français sous le nom de loup garou est, dans les mythologies européennes, un humain possédant la capacité de se transformer en loup ( partiellement ou complètement ) ou en créature anthropophage proche de celui-ci. Contrairement à ce que beaucoup de personnes pensent, cette transformation n'est pas due à la morsure ou la griffure d’un autre lycanthrope. Cette croyance est tout à fait récente et très certainement imaginée pour le cinéma. Dans la mythologie, il s’agit plus d’une malédiction ou d’un rituel volontaire. La frontière entre la légende et la réalité est cependant fine. L’humanité depuis sa naissance à toujours été une proie, et les animaux anthropophages sont une réalité. Qu’il s’agisse d’une réminiscence de la partie reptilienne de notre cerveau, ou d’une constatation documenté comme, très proche de chez nous, la bête du Gevaudan qui alarma même le Roi Louis XV en personne, toutes les civilisations humaines de la planète ont leur folklore, intégrant systématiquement des créatures anthropomorphes.",
     histoire2:
@@ -43,7 +42,6 @@ const homeData = [
     imgsrc2: "/leCasVallecasSecondaire.png",
     imgsrc3: "/maisonHantée.png",
     imgsrc4: "/casVallecsEnfants.png",
-    url: "https://www.youtube.com/embed/Jhmnvk4YMU8",
     histoire1:
       "Le cas Vallecas Il s’agit à ce jour du seul cas de hantise dans une demeure qui soit reconnu par les forces de l’ordre de Madrid. Les événements dont furent témoins la famille Gutiérrez au 8, rue Luis Marin ne seront jamais expliqués. L’épicentre de cette violente histoire semble être la fille de Maximo Gutierrez, Estefania Lazaro Gutiérrez. Jeune lycéenne de 18 ans, tous les témoins affirment que les manifestations ont commencé après une séance de Ouija ayant mal tournée. S’adonnant souvent à cette pratique avec ses copines de classe, elle ne pouvait pas prévoir ce qu’il se passerai en ce mois de mars 1990. Jouant dans la cour de son lycée catholique avec ses amies, espérant prendre contact avec l’ex petit ami de l’une de ses camarades, la séance est soudainement interrompue par son professeur qui brise la planche de fortune fabriquée par Estefania et jette nerveusement le verre servant de goute ( objet servant à cibler les lettres) qui éclate sur l’asphalte.Peu de temps après, Estefania se plaignit auprès de ses parents que de grandes silhouettes sombres venaient la visiter. Les parents contactèrent le médecin de famille qui leur conseilla d’envoyer Estefania dans un centre de soin spécialisé. Malgré les crises de convulsions, ils ne trouvèrent rien, pas d’épilepsie ni aucune maladie. Finalement le 14 août 1991, alors qu’elle se trouvait à l’hôpital Gregorio Maranon, elle sombra dans un profond coma duquel elle ne reviendra jamais. Les médecins stupéfait ne comprennent pas et ne comprendront jamais.",
     histoire2:
@@ -59,7 +57,6 @@ const homeData = [
       "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
     imgsrc4:
       "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
-    url: "https://www.youtube.com/embed/Jhmnvk4YMU8",
     histoire1:
       "Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
     histoire2:
@@ -70,7 +67,7 @@ const homeData = [
 const boutiqueData = [
   {
     id: 1,
-    catégorie: "leCasVallecas",
+    catégorie: "Le cas Vallecas",
     name: "Grimoire",
     imgsrc1:
       "https://i.pinimg.com/originals/c6/10/6d/c6106d4a91213acfa97609a1767c793b.jpg",
@@ -79,7 +76,7 @@ const boutiqueData = [
   },
   {
     id: 2,
-    catégorie: "revenants",
+    catégorie: "Lord Dracula",
     name: "amulette émeraude",
     imgsrc1:
       "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
@@ -97,7 +94,7 @@ const boutiqueData = [
   },
   {
     id: 4,
-    catégorie: "loupsGarous",
+    catégorie: "Loups Garous",
     name: "balles en argent calibre 44 au détail",
     imgsrc1: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.png",
     imgsrc2:
@@ -106,7 +103,7 @@ const boutiqueData = [
   },
   {
     id: 5,
-    catégorie: "hauntedHouses",
+    catégorie: "Le cas Vallecas",
     name: "sauge blanche Amérindiene, lot de 2",
     imgsrc1:
       "https://i.etsystatic.com/36349093/r/il/afdb89/4012290846/il_1588xN.4012290846_qlr0.jpg",
@@ -116,7 +113,7 @@ const boutiqueData = [
   },
   {
     id: 6,
-    catégorie: "lordDracula",
+    catégorie: "Lord Dracula",
     name: "Coffret XIXe Chasse Vampires",
     imgsrc1:
       "https://i.pinimg.com/564x/70/d6/ca/70d6ca07c52e476e307015676f958eff.jpg",
@@ -126,7 +123,7 @@ const boutiqueData = [
   },
   {
     id: 7,
-    catégorie: "lordDracula",
+    catégorie: "Lord Dracula",
     name: "Poster Chateau Dracula",
     imgsrc1: "/ChateauDracula.png",
     price: 13,
@@ -139,7 +136,7 @@ const boutiqueData = [
   },
   {
     id: 9,
-    catégorie: "hauntedHouses",
+    catégorie: "Le cas Vallecas",
     name: "Detecteur EMF",
     imgsrc1:
       "https://www.spiritshack.co.uk/wp-content/uploads/black-k2-emf-meter-ghost-hunting-equipment-ghost-detector-paranormal-investigation.jpg",
@@ -147,7 +144,7 @@ const boutiqueData = [
   },
   {
     id: 10,
-    catégorie: "Spirits",
+    catégorie: "Le cas Vallecas",
     name: "Amélia",
     imgsrc1: "https://www.mindshadow.fr/wp-content/uploads/2014/07/amelia.jpg",
     price: 300,
@@ -164,8 +161,12 @@ app.get("/home", (req, res) => {
 
 app.get("/home/:id", (req, res) => {
   const result = homeData.find((elem) => elem.id == req.params.id);
-  console.log(result);
+  // console.log(result)
   res.json(result);
+});
+
+app.get("/home/:id", (req, res) => {
+  res.json(boutiqueData);
 });
 
 app.get("/boutique", (req, res) => {
