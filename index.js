@@ -58,19 +58,19 @@ const homeData = [
 const boutiqueData = [
     {
         id: 1,
-        catégorie: "leCasVallecas",
+        catégorie: "Le cas Vallecas",
         name: "Grimoire",
         imgsrc1:"https://i.pinimg.com/originals/c6/10/6d/c6106d4a91213acfa97609a1767c793b.jpg",
         imgsrc2: "/assets/Grimoire.png",
-        prix: 1300,
+        price: 1300,
     },
     {
         id: 2,
-        catégorie: "revenants",
+        catégorie: "Lord Dracula",
         name: "amulette émeraude",
         imgsrc1: "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
         imgsrc2: "/amuletteEmeraude.png",
-        prix: 2600,
+        price: 2600,
     },
     {
         id: 3,
@@ -78,19 +78,19 @@ const boutiqueData = [
         name: "scarabée egyptien",
         imgsrc1:"https://i.pinimg.com/564x/bd/3e/74/bd3e74be3e15f0d053502e1791fcdbce.jpg",
         imgsrc2: "/assets/ancient_egyptian_scarab.png",
-        prix: 800,
+        price: 800,
     },
     {
         id: 4,
-        catégorie: "loupsGarous",
+        catégorie: "Loups Garous",
         name: "balles en argent calibre 44 au détail",
         imgsrc1: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.png",
         imgsrc2:"https://i.pinimg.com/564x/c7/c2/f3/c7c2f36f9b32c1250ce146e04147ca5b.jpg",
-        prix: 19,
+        price: 19,
     },
     {
         id: 5,
-        catégorie: "hauntedHouses",
+        catégorie: "Le cas Vallecas",
         name: "sauge blanche Amérindiene, lot de 2",
         imgsrc1: "https://i.etsystatic.com/36349093/r/il/afdb89/4012290846/il_1588xN.4012290846_qlr0.jpg",
         imgsrc2: "https://i.pinimg.com/564x/20/00/36/2000367e2c213f084637b2854a2f83c2.jpg",
@@ -98,7 +98,7 @@ const boutiqueData = [
     },
     {
         id: 6,
-        catégorie: "lordDracula",
+        catégorie: "Lord Dracula",
         name: "Coffret XIXe Chasse Vampires",
         imgsrc1: "https://i.pinimg.com/564x/70/d6/ca/70d6ca07c52e476e307015676f958eff.jpg",
         imgsrc2: "https://i.pinimg.com/564x/48/6a/89/486a893f0f7262e3d785ed78d4a7fa99.jpg",
@@ -106,29 +106,29 @@ const boutiqueData = [
     },
     {
         id: 7,
-        catégorie: "lordDracula",
+        catégorie: "Lord Dracula",
         name: "Poster Chateau Dracula",
-        imgsrc: "/ChateauDracula.png",
+        imgsrc1: "/ChateauDracula.png",
         price: 13,
     },
     {
         id: 8,
         name: "Poster Chat maléfique",
-        imgsrc: "/ChatDiabolique.png",
+        imgsrc1: "/ChatDiabolique.png",
         price: 13,
     },
     {
         id: 9,
-        catégorie: "hauntedHouses",
+        catégorie: "Le cas Vallecas",
         name: "Detecteur EMF",
-        imgsrc: "https://www.spiritshack.co.uk/wp-content/uploads/black-k2-emf-meter-ghost-hunting-equipment-ghost-detector-paranormal-investigation.jpg",
+        imgsrc1: "https://www.spiritshack.co.uk/wp-content/uploads/black-k2-emf-meter-ghost-hunting-equipment-ghost-detector-paranormal-investigation.jpg",
         price: 500,
     },
     {
         id: 10,
-        catégorie: "Spirits",
+        catégorie: "Le cas Vallecas",
         name:"Amélia",
-        imgsrc: "https://www.mindshadow.fr/wp-content/uploads/2014/07/amelia.jpg",
+        imgsrc1: "https://www.mindshadow.fr/wp-content/uploads/2014/07/amelia.jpg",
         price: 300,
     },
 ];
@@ -143,8 +143,12 @@ app.get("/home", (req, res) => {
 
 app.get("/home/:id", (req, res) => {
     const result = homeData.find(elem => elem.id == req.params.id)
-    console.log(result)
+    // console.log(result)
     res.json(result);
+});
+
+app.get("/home/:id", (req, res) => {
+    res.json(boutiqueData);
 });
 
 app.get("/boutique", (req, res) => {
