@@ -29,7 +29,7 @@ const homeData = [
     imgsrc2: "/LoupsGarousForet.png",
     imgsrc3: "/LoupsGarousForet.png",
     imgsrc4: "/LoupsGarousCreatures.png",
-    url: "https://www.youtube.com/embed/Ujmw_jPeoYk&ab",
+    url: "https://www.youtube.com/embed/qDJvoucVOkA",
     histoire1:
       "Le lycanthrope, plus connu en français sous le nom de loup garou est, dans les mythologies européennes, un humain possédant la capacité de se transformer en loup ( partiellement ou complètement ) ou en créature anthropophage proche de celui-ci. Contrairement à ce que beaucoup de personnes pensent, cette transformation n'est pas due à la morsure ou la griffure d’un autre lycanthrope. Cette croyance est tout à fait récente et très certainement imaginée pour le cinéma. Dans la mythologie, il s’agit plus d’une malédiction ou d’un rituel volontaire. La frontière entre la légende et la réalité est cependant fine. L’humanité depuis sa naissance à toujours été une proie, et les animaux anthropophages sont une réalité. Qu’il s’agisse d’une réminiscence de la partie reptilienne de notre cerveau, ou d’une constatation documenté comme, très proche de chez nous, la bête du Gevaudan qui alarma même le Roi Louis XV en personne, toutes les civilisations humaines de la planète ont leur folklore, intégrant systématiquement des créatures anthropomorphes.",
     histoire2:
@@ -53,10 +53,13 @@ const homeData = [
     id: 4,
     name: "Roswell",
     imgsrc: "/ufo_first.png",
-    imgsrc1:"/alien_first.png",
-    imgsrc2:"https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
-    imgsrc3:"https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
-    imgsrc4:"https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
+    imgsrc1: "/alien_first.png",
+    imgsrc2:
+      "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
+    imgsrc3:
+      "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
+    imgsrc4:
+      "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
     url: "https://www.youtube.com/embed/Ujmw_jPeoYk&ab",
     histoire1:
       "Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
@@ -72,9 +75,9 @@ const homeData = [
     imgsrc3: "/exorc_fifth.png",
     imgsrc4: "/exor_fourth.png",
     histoire1:
-    "Anneliese Michel. Voila un sujet très délicat à aborder. De tous les sujets mystérieux, les exorcismes sont certainement les plus populaires et les plus documentés. Sujet de nombreux débats, il s’agit dans la plupart des cas de pathologie mentales. Sans être exhaustif, nous pourrions citer l’épilepsie, la dépersonnalisation psychique, la schizophrénie… Culturellement parlant, nous pensons que l’exorcisme est un acte anodin et pratiqué systématiquement dès que les parents d’une « victime » sont croyants. Il n’en est rien. L’exorcisme n’est pas si fréquent et le Vatican n’accepte que très rarement de procéder à un rituel d’exorcisme. Préférant orienter les parents des malades vers un centre de soins, un neurologue. Dans 98% des cas, il s’agit bien d’une pathologie psychiatrique. Pour qu’un prêtre spécialisé obtienne réellement l’accord du Vatican pour procéder     à un exorcisme, il faut que la personne potentiellement possédée réponde à des critères bien spécifiques. Selon le rituel, pour être considéré comme possédé, un individu doit comprendre et parler des langues inconnues, souvent mortes mais aussi connaître des faits cachés. Pour finir, la manifestation d’un décuplement de la force physique du sujet. Le Vatican peut toutefois, malgré tous ces critères ne pas accéder à la requête des familles.",
+      "Anneliese Michel. Voila un sujet très délicat à aborder. De tous les sujets mystérieux, les exorcismes sont certainement les plus populaires et les plus documentés. Sujet de nombreux débats, il s’agit dans la plupart des cas de pathologie mentales. Sans être exhaustif, nous pourrions citer l’épilepsie, la dépersonnalisation psychique, la schizophrénie… Culturellement parlant, nous pensons que l’exorcisme est un acte anodin et pratiqué systématiquement dès que les parents d’une « victime » sont croyants. Il n’en est rien. L’exorcisme n’est pas si fréquent et le Vatican n’accepte que très rarement de procéder à un rituel d’exorcisme. Préférant orienter les parents des malades vers un centre de soins, un neurologue. Dans 98% des cas, il s’agit bien d’une pathologie psychiatrique. Pour qu’un prêtre spécialisé obtienne réellement l’accord du Vatican pour procéder     à un exorcisme, il faut que la personne potentiellement possédée réponde à des critères bien spécifiques. Selon le rituel, pour être considéré comme possédé, un individu doit comprendre et parler des langues inconnues, souvent mortes mais aussi connaître des faits cachés. Pour finir, la manifestation d’un décuplement de la force physique du sujet. Le Vatican peut toutefois, malgré tous ces critères ne pas accéder à la requête des familles.",
     histoire2:
-    "L’un des cas les plus connus de l’histoire et sans équivoque celui d’une allemande, Anneliese Michel né en 1952 à Leibfling en ex Allemagne de l’Ouest. Un jour de 1967, la jeune fille fût victime de violent tremblements et les médecins diagnostiquèrent un cas d’épilepsie. Malgré tous, les médicaments supposé contrôler sa maladie ne firent qu’empirer les choses. Elle parlait aux médecins de voix qu’elle entendait ainsi que de vision de visages grimaçant lors de sa prière quotidienne. Devant l’embarras et l’impuissance des médecins, les parents de la jeune Anneliese décide de contacter plusieurs prêtres de pratiquer un exorcisme. Il refusaient systématiquement, les invitants à être plus rigoureux concernant le traitement médicamenteux. 1974, la santé d’Anneliese décroit. Elle ne s’alimente plus et ses crises deviennent de plus en plus violentes. L’archevêché autorisa  en 1975 un exorcisme fondé sur le rituel romain. Trois hommes étaient nécessaires pour la maitriser. On pratiqua sur celle-ci un ou deux exorcismes par semaine. Elle put reprendre un semblant de vie normale, continuer sa scolarité. Les crises ne cessèrent cependant pas. Anneliese reçu son dernier exorcisme ( le 67ème ) le 30 juin 1976. Souffrant de pneumonie et d’une grande fièvre, elle mourut le lendemain. Les parents d’Anneliese ainsi que les deux prêtres qui avaient pratiqués les exorcismes furent inculpés de négligence ayant entrainé sa mort. Les enregistrements disponibles de certaines séances peuvent heurter la sensibilité des personnes les plus sensibles.",
+      "L’un des cas les plus connus de l’histoire et sans équivoque celui d’une allemande, Anneliese Michel né en 1952 à Leibfling en ex Allemagne de l’Ouest. Un jour de 1967, la jeune fille fût victime de violent tremblements et les médecins diagnostiquèrent un cas d’épilepsie. Malgré tous, les médicaments supposé contrôler sa maladie ne firent qu’empirer les choses. Elle parlait aux médecins de voix qu’elle entendait ainsi que de vision de visages grimaçant lors de sa prière quotidienne. Devant l’embarras et l’impuissance des médecins, les parents de la jeune Anneliese décide de contacter plusieurs prêtres de pratiquer un exorcisme. Il refusaient systématiquement, les invitants à être plus rigoureux concernant le traitement médicamenteux. 1974, la santé d’Anneliese décroit. Elle ne s’alimente plus et ses crises deviennent de plus en plus violentes. L’archevêché autorisa  en 1975 un exorcisme fondé sur le rituel romain. Trois hommes étaient nécessaires pour la maitriser. On pratiqua sur celle-ci un ou deux exorcismes par semaine. Elle put reprendre un semblant de vie normale, continuer sa scolarité. Les crises ne cessèrent cependant pas. Anneliese reçu son dernier exorcisme ( le 67ème ) le 30 juin 1976. Souffrant de pneumonie et d’une grande fièvre, elle mourut le lendemain. Les parents d’Anneliese ainsi que les deux prêtres qui avaient pratiqués les exorcismes furent inculpés de négligence ayant entrainé sa mort. Les enregistrements disponibles de certaines séances peuvent heurter la sensibilité des personnes les plus sensibles.",
   },
   {
     id: 6,
@@ -84,10 +87,10 @@ const homeData = [
     imgsrc2: "/Club_2.png",
     imgsrc3: "/Club_3.png",
     imgsrc4: "/Club_4.png",
-    histoire1: 
-    "Dans le monde de la musique, aucun mélomane un tant soit peu puriste n’a jamais entendu parlé du club des 27. C’est passionnant et tragique à la fois. Comme les peintres impressionnistes et expressionnistes qui ne rencontraient le succès qu’une fois décédé, nous sommes la face à la dévotion et au don de soi, ainsi que de sa vie, pour la musique. Le « Forever 27 club » se dessine dans l’imaginaire collectif suite aux morts rapprochées de Brian Jones, Jimi Hendrix, Janis Joplin et Jim Morrison entre juillet 1969 et juillet 1971. Tous issues du monde ru rock et du blues et bien sûr, morts à l’âge de 27 ans. L’idée du club des 27 s’est imposée après la mort de Kurt Cobain en 1994. Sensiblement oublié par la suite, il connaît un regain de notoriété en juillet 2011, après la mort de Amy Winehouse. Ces légendes de malédictions autour d’artistes, de musiciens n’est pas non plus nouveau. Nous pouvons par exemple citer l’histoire de Robert Johnson, guitariste et chanteur de Blues né le 8 mai 1911, qui, selon la légende aurait donné son âme pour devenir un musicien de talent et, par la même devenir célèbre. Peut-être moins connu c’est une source d’inspiration inépuisable pour les scénaristes de series et films traitant de l’étrange. ",
+    histoire1:
+      "Dans le monde de la musique, aucun mélomane un tant soit peu puriste n’a jamais entendu parlé du club des 27. C’est passionnant et tragique à la fois. Comme les peintres impressionnistes et expressionnistes qui ne rencontraient le succès qu’une fois décédé, nous sommes la face à la dévotion et au don de soi, ainsi que de sa vie, pour la musique. Le « Forever 27 club » se dessine dans l’imaginaire collectif suite aux morts rapprochées de Brian Jones, Jimi Hendrix, Janis Joplin et Jim Morrison entre juillet 1969 et juillet 1971. Tous issues du monde ru rock et du blues et bien sûr, morts à l’âge de 27 ans. L’idée du club des 27 s’est imposée après la mort de Kurt Cobain en 1994. Sensiblement oublié par la suite, il connaît un regain de notoriété en juillet 2011, après la mort de Amy Winehouse. Ces légendes de malédictions autour d’artistes, de musiciens n’est pas non plus nouveau. Nous pouvons par exemple citer l’histoire de Robert Johnson, guitariste et chanteur de Blues né le 8 mai 1911, qui, selon la légende aurait donné son âme pour devenir un musicien de talent et, par la même devenir célèbre. Peut-être moins connu c’est une source d’inspiration inépuisable pour les scénaristes de series et films traitant de l’étrange. ",
     histoire2:
-    "Devil at the Cross Road. Il s’agit d’une légende selon laquelle Johnson a pris sa guitare et se soit rendu au carrefour des autoroutes 49 et 61 ( au fin fond du Mississippi ), où il aurait fait un pacte avec le Diable, pour devenir un guitariste virtuose en échange de son âme. Il en parle d’ailleurs dans sa chanson « Cross Road Blues ». En réalité, il s’agissait d’une légende que plusieurs chanteurs de Blues colportaient au même moment pour leur propre compte, pour ajouter un peu de mystère et de mythologie autour d’eux. Inspiré du mythe de Papa Legba, un esprit vaudou haïtien qui seraient présent près des portes ou à la croisée des chemins, les bluesmen trouvaient simplement que le fait citer le Diable ajoutait une aura sur leur musique Il est cependant vrai que la première fois que le bluesman Son House rencontra Johnson, il ne reconnu en lui aucun talent. Très bon à l’harmonica mais un très mauvais guitariste. Ce n’est que deux ans après, lorsque les deux musiciens se retrouvèrent qu’il constata un bond immense en terme de dextérité et technique à la guitare. Robert Johnson meurt à 27 ans empoisonné à la strychnine par un mari jaloux. En effet, profitant de sa popularité, comme beaucoup de musiciens, il ne put s’empêcher de séduire la femme de trop. Cette mort n’a fait que renforcer sa légende.",
+      "Devil at the Cross Road. Il s’agit d’une légende selon laquelle Johnson a pris sa guitare et se soit rendu au carrefour des autoroutes 49 et 61 ( au fin fond du Mississippi ), où il aurait fait un pacte avec le Diable, pour devenir un guitariste virtuose en échange de son âme. Il en parle d’ailleurs dans sa chanson « Cross Road Blues ». En réalité, il s’agissait d’une légende que plusieurs chanteurs de Blues colportaient au même moment pour leur propre compte, pour ajouter un peu de mystère et de mythologie autour d’eux. Inspiré du mythe de Papa Legba, un esprit vaudou haïtien qui seraient présent près des portes ou à la croisée des chemins, les bluesmen trouvaient simplement que le fait citer le Diable ajoutait une aura sur leur musique Il est cependant vrai que la première fois que le bluesman Son House rencontra Johnson, il ne reconnu en lui aucun talent. Très bon à l’harmonica mais un très mauvais guitariste. Ce n’est que deux ans après, lorsque les deux musiciens se retrouvèrent qu’il constata un bond immense en terme de dextérité et technique à la guitare. Robert Johnson meurt à 27 ans empoisonné à la strychnine par un mari jaloux. En effet, profitant de sa popularité, comme beaucoup de musiciens, il ne put s’empêcher de séduire la femme de trop. Cette mort n’a fait que renforcer sa légende.",
   },
 ];
 
@@ -105,9 +108,9 @@ const boutiqueData = [
     id: 2,
     catégorie: "Count Dracula",
     name: "amulette émeraude",
-    imgsrc1:
-        "/amuletteEmeraude.png",
-    imgsrc2: "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
+    imgsrc1: "/amuletteEmeraude.png",
+    imgsrc2:
+      "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
     price: 2600,
   },
   {
@@ -122,7 +125,7 @@ const boutiqueData = [
   {
     id: 4,
     catégorie: "Loups Garous",
-    name: "balles en argent calibre 44 au détail",
+    name: "balles en argent calibre 44 ",
     imgsrc1: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.png",
     imgsrc2:
       "https://i.pinimg.com/564x/c7/c2/f3/c7c2f36f9b32c1250ce146e04147ca5b.jpg",
@@ -131,7 +134,7 @@ const boutiqueData = [
   {
     id: 5,
     catégorie: "Le cas Vallecas",
-    name: "sauge blanche Amérindiene, lot de 2",
+    name: "sauge blanche Amérindiene",
     imgsrc1:
       "https://i.etsystatic.com/36349093/r/il/afdb89/4012290846/il_1588xN.4012290846_qlr0.jpg",
     imgsrc2:
@@ -165,8 +168,7 @@ const boutiqueData = [
     id: 9,
     catégorie: "Le cas Vallecas",
     name: "Detecteur EMF",
-    imgsrc1:
-      "/ChatDiabolique.png",
+    imgsrc1: "/ChatDiabolique.png",
     price: 500,
   },
   {
@@ -204,7 +206,7 @@ app.get("/home/:id", (req, res) => {
 });
 
 app.get("/home/:id", (req, res) => {
-    res.json(boutiqueData);
+  res.json(boutiqueData);
 });
 
 app.get("/boutique", (req, res) => {
