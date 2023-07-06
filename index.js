@@ -43,7 +43,7 @@ const homeData = [
     imgsrc2: "/leCasVallecasSecondaire.png",
     imgsrc3: "/maisonHantée.png",
     imgsrc4: "/casVallecsEnfants.png",
-    url: "https://www.youtube.com/embed/MvTVqWhssoM&ab",
+    url: "https://www.youtube.com/embed/T9kdY5vqhzs",
     histoire1:
       "Le cas Vallecas Il s’agit à ce jour du seul cas de hantise dans une demeure qui soit reconnu par les forces de l’ordre de Madrid. Les événements dont furent témoins la famille Gutiérrez au 8, rue Luis Marin ne seront jamais expliqués. L’épicentre de cette violente histoire semble être la fille de Maximo Gutierrez, Estefania Lazaro Gutiérrez. Jeune lycéenne de 18 ans, tous les témoins affirment que les manifestations ont commencé après une séance de Ouija ayant mal tournée. S’adonnant souvent à cette pratique avec ses copines de classe, elle ne pouvait pas prévoir ce qu’il se passerai en ce mois de mars 1990. Jouant dans la cour de son lycée catholique avec ses amies, espérant prendre contact avec l’ex petit ami de l’une de ses camarades, la séance est soudainement interrompue par son professeur qui brise la planche de fortune fabriquée par Estefania et jette nerveusement le verre servant de goute ( objet servant à cibler les lettres) qui éclate sur l’asphalte.Peu de temps après, Estefania se plaignit auprès de ses parents que de grandes silhouettes sombres venaient la visiter. Les parents contactèrent le médecin de famille qui leur conseilla d’envoyer Estefania dans un centre de soin spécialisé. Malgré les crises de convulsions, ils ne trouvèrent rien, pas d’épilepsie ni aucune maladie. Finalement le 14 août 1991, alors qu’elle se trouvait à l’hôpital Gregorio Maranon, elle sombra dans un profond coma duquel elle ne reviendra jamais. Les médecins stupéfait ne comprennent pas et ne comprendront jamais.",
     histoire2:
@@ -60,7 +60,7 @@ const homeData = [
       "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
     imgsrc4:
       "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
-    url: "https://www.youtube.com/embed/Ujmw_jPeoYk&ab",
+    url: "https://www.youtube.com/embed/73ZnZpAB6M8",
     histoire1:
       "Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
     histoire2:
@@ -74,6 +74,7 @@ const homeData = [
     imgsrc2: "/exor_third.png",
     imgsrc3: "/exorc_fifth.png",
     imgsrc4: "/exor_fourth.png",
+    url: "https://www.youtube.com/embed/a_Fmn5Y6zAM",
     histoire1:
       "Anneliese Michel. Voila un sujet très délicat à aborder. De tous les sujets mystérieux, les exorcismes sont certainement les plus populaires et les plus documentés. Sujet de nombreux débats, il s’agit dans la plupart des cas de pathologie mentales. Sans être exhaustif, nous pourrions citer l’épilepsie, la dépersonnalisation psychique, la schizophrénie… Culturellement parlant, nous pensons que l’exorcisme est un acte anodin et pratiqué systématiquement dès que les parents d’une « victime » sont croyants. Il n’en est rien. L’exorcisme n’est pas si fréquent et le Vatican n’accepte que très rarement de procéder à un rituel d’exorcisme. Préférant orienter les parents des malades vers un centre de soins, un neurologue. Dans 98% des cas, il s’agit bien d’une pathologie psychiatrique. Pour qu’un prêtre spécialisé obtienne réellement l’accord du Vatican pour procéder     à un exorcisme, il faut que la personne potentiellement possédée réponde à des critères bien spécifiques. Selon le rituel, pour être considéré comme possédé, un individu doit comprendre et parler des langues inconnues, souvent mortes mais aussi connaître des faits cachés. Pour finir, la manifestation d’un décuplement de la force physique du sujet. Le Vatican peut toutefois, malgré tous ces critères ne pas accéder à la requête des familles.",
     histoire2:
@@ -87,6 +88,7 @@ const homeData = [
     imgsrc2: "/Club_2.png",
     imgsrc3: "/Club_3.png",
     imgsrc4: "/Club_4.png",
+    url: "https://www.youtube.com/embed/x5Lr4sMXUCU",
     histoire1:
       "Dans le monde de la musique, aucun mélomane un tant soit peu puriste n’a jamais entendu parlé du club des 27. C’est passionnant et tragique à la fois. Comme les peintres impressionnistes et expressionnistes qui ne rencontraient le succès qu’une fois décédé, nous sommes la face à la dévotion et au don de soi, ainsi que de sa vie, pour la musique. Le « Forever 27 club » se dessine dans l’imaginaire collectif suite aux morts rapprochées de Brian Jones, Jimi Hendrix, Janis Joplin et Jim Morrison entre juillet 1969 et juillet 1971. Tous issues du monde ru rock et du blues et bien sûr, morts à l’âge de 27 ans. L’idée du club des 27 s’est imposée après la mort de Kurt Cobain en 1994. Sensiblement oublié par la suite, il connaît un regain de notoriété en juillet 2011, après la mort de Amy Winehouse. Ces légendes de malédictions autour d’artistes, de musiciens n’est pas non plus nouveau. Nous pouvons par exemple citer l’histoire de Robert Johnson, guitariste et chanteur de Blues né le 8 mai 1911, qui, selon la légende aurait donné son âme pour devenir un musicien de talent et, par la même devenir célèbre. Peut-être moins connu c’est une source d’inspiration inépuisable pour les scénaristes de series et films traitant de l’étrange. ",
     histoire2:
