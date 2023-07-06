@@ -109,7 +109,7 @@ const boutiqueData = [
   {
     id: 2,
     catégorie: "Count Dracula",
-    name: "amulette émeraude",
+    name: "Amulette émeraude",
     imgsrc1: "/amuletteEmeraude.png",
     imgsrc2:
       "https://i.pinimg.com/564x/88/5a/19/885a19a25438236f23f4ffc214e448e2.jpg",
@@ -118,7 +118,7 @@ const boutiqueData = [
   {
     id: 3,
     catégorie: "revenants",
-    name: "scarabée egyptien",
+    name: "Scarabée egyptien",
     imgsrc1:
       "https://i.pinimg.com/564x/bd/3e/74/bd3e74be3e15f0d053502e1791fcdbce.jpg",
     imgsrc2: "/assets/ancient_egyptian_scarab.png",
@@ -127,7 +127,7 @@ const boutiqueData = [
   {
     id: 4,
     catégorie: "Loups Garous",
-    name: "balles en argent calibre 44 ",
+    name: "Balles en argent calibre 44 ",
     imgsrc1: "https://i.ebayimg.com/images/g/qM8AAOSwgMdkVRUK/s-l1200.png",
     imgsrc2:
       "https://i.pinimg.com/564x/c7/c2/f3/c7c2f36f9b32c1250ce146e04147ca5b.jpg",
@@ -136,7 +136,7 @@ const boutiqueData = [
   {
     id: 5,
     catégorie: "Le cas Vallecas",
-    name: "sauge blanche Amérindiene",
+    name: "Sauce  blanche Amérindiene",
     imgsrc1:
       "https://i.etsystatic.com/36349093/r/il/afdb89/4012290846/il_1588xN.4012290846_qlr0.jpg",
     imgsrc2:
