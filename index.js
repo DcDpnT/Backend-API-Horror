@@ -14,7 +14,7 @@ const homeData = [
     imgsrc1: "/VampirePrincipal.png",
     imgsrc2: "/ChateauDracula.png",
     imgsrc3: "/ChateauDracula.png",
-    imgsrc4: "/VieilleFemmeVampire.png",
+    imgsrc4: "/chateauAbdou.png",
     url: "https://www.youtube.com/embed/Jhmnvk4YMU8",
     histoire1:
       "Dracula Personnage célèbre de la fin du XIXème siècle, crée par l’écrivain Bram Stoker pour son roman du même nom, il s’agit certainement du Vampire le plus célèbre dans l’imaginaire collectif. Il est évident que l’écriture de son personnage est passionnante. Inspiré du Comte Vlad Tepes III de Valachie, dit l’empaleur, Dracula inspire l’effroi à quiconque croisera son regard. Même le professeur Abraham Van Helsing le craint, pourtant éminent médecin et homme de loi au courage sans faille. C’est une émouvante histoire. Mais si je vous disais que la croyance du mort se nourrissant du sang des vivants pour subsister date de bien avant le XIXème siècle? Peut-être pas les vampires tels que nous les connaissons, mais les archéologues sont tout à fait au courant de cette pratique des « enterrements Vampriques » datant au moins du 5ème siècle.",
@@ -25,10 +25,10 @@ const homeData = [
     id: 2,
     name: "Loups Garous",
     imgsrc: "/LoupsGarous.png",
-    imgsrc1: "/LoupGarouPrincipal.png",
+    imgsrc1: "/LOUPGAROU.png",
     imgsrc2: "/LoupsGarousForet.png",
     imgsrc3: "/LoupsGarousForet.png",
-    imgsrc4: "/LoupsGarousCreatures.png",
+    imgsrc4: "/LOUPGAROUS2.png",
     url: "https://www.youtube.com/embed/qDJvoucVOkA",
     histoire1:
       "Le lycanthrope, plus connu en français sous le nom de loup garou est, dans les mythologies européennes, un humain possédant la capacité de se transformer en loup ( partiellement ou complètement ) ou en créature anthropophage proche de celui-ci. Contrairement à ce que beaucoup de personnes pensent, cette transformation n'est pas due à la morsure ou la griffure d’un autre lycanthrope. Cette croyance est tout à fait récente et très certainement imaginée pour le cinéma. Dans la mythologie, il s’agit plus d’une malédiction ou d’un rituel volontaire. La frontière entre la légende et la réalité est cependant fine. L’humanité depuis sa naissance à toujours été une proie, et les animaux anthropophages sont une réalité. Qu’il s’agisse d’une réminiscence de la partie reptilienne de notre cerveau, ou d’une constatation documenté comme, très proche de chez nous, la bête du Gevaudan qui alarma même le Roi Louis XV en personne, toutes les civilisations humaines de la planète ont leur folklore, intégrant systématiquement des créatures anthropomorphes.",
@@ -38,8 +38,8 @@ const homeData = [
   {
     id: 3,
     name: "Le cas Vallecas",
-    imgsrc: "/shadow_first.png",
-    imgsrc1: "/casVallecasPrincipal.png",
+    imgsrc: "/CASVALLECAS.png",
+    imgsrc1: "/CASVALLECAS.png",
     imgsrc2: "/leCasVallecasSecondaire.png",
     imgsrc3: "/maisonHantée.png",
     imgsrc4: "/casVallecsEnfants.png",
@@ -52,14 +52,12 @@ const homeData = [
   {
     id: 4,
     name: "Roswell",
-    imgsrc: "/ufo_first.png",
-    imgsrc1: "/alien_first.png",
-    imgsrc2:
-      "https://i.pinimg.com/564x/aa/3c/60/aa3c60a973e487f5c08bc0035698d0f9.jpg",
+    imgsrc: "/RoswellHome.png",
+    imgsrc1: "/SoucoupeVIOLENTE.png",
+    imgsrc2: "/SoucoupeAlien.png",
     imgsrc3:
       "https://i.pinimg.com/564x/36/4e/b6/364eb6bd1e4d6f9018b95115d15e9117.jpg",
-    imgsrc4:
-      "https://i.pinimg.com/564x/2f/e7/7d/2fe77d0894ca78e34b68bbfa9abd51a4.jpg",
+    imgsrc4: "/SoucoupeRouge.png",
     url: "https://www.youtube.com/embed/73ZnZpAB6M8",
     histoire1:
       "Juillet 1947, le shérif Jess Slaughter et son adjoint Charles Fogus roulent tous deux vers Roswell, au Nouveau-Mexique pour transporter un prisonnier. Arrivé sur les lieux de l’interpellation, ils sont stupéfait en découvrant le nombre de soldats présents sur place. Ne comprenant pas et demandant des explications, ils aperçoivent ce qui semble être un corps avec des proportions étranges, transporté dans un sac mortuaire. Les soldats ne les laissent pas approcher plus que cela mais l’adjoint ne peut s’empêcher de remarquer des débris au sol, comme si un avion s’était écrasé. Ils rentrent donc avec le prisonnier lorsque la radio de police stipule qu’un objet de taille raisonnable s’était écrasé dans le désert non loin de Roswell. Pour beaucoup d’ufologies, il s’agit d’une preuve réelle d’un contact avec une espèce extra-terrestre. Pour les militaires et scientifique plutôt d’un mythe. La majorité penche vers le mythe et nous ne pouvons qu’être d’accord. En effet, si un tel événement avait eu lieu, il n’aurait pas été tant documenté par les autorités et l’armée des Etats-unis aurait fait le maximum pour le dissimuler.",
@@ -118,9 +116,8 @@ const boutiqueData = [
   {
     id: 3,
     catégorie: "revenants",
-    name: "Scarabée egyptien",
-    imgsrc1:
-      "https://i.pinimg.com/564x/bd/3e/74/bd3e74be3e15f0d053502e1791fcdbce.jpg",
+    name: "Statuette emauraude",
+    imgsrc1: "/PoulpeEmeraude.png",
     imgsrc2: "/assets/ancient_egyptian_scarab.png",
     price: 800,
   },
@@ -177,7 +174,7 @@ const boutiqueData = [
     id: 10,
     catégorie: "Le cas Vallecas",
     name: "Amélia",
-    imgsrc1: "https://www.mindshadow.fr/wp-content/uploads/2014/07/amelia.jpg",
+    imgsrc1: "/PoupeANNABELLE.png",
     price: 300,
   },
   {
